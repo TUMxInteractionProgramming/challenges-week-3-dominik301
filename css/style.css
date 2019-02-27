@@ -143,3 +143,11 @@ li img {
     margin-left: 17.5%;
 }
 
+#app-bar strong {
+    color: white;
+}
+
+#chat img{
+    position: absolute;
+    right: 16px;
+}

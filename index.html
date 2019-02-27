@@ -10,6 +10,8 @@
     <!-- #4 #sweat out the styles by creating an #external css -->
     <link rel="stylesheet" href="css/style.css" />
 
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     
 </head>
 <body>
@@ -23,7 +25,7 @@
 
     <!-- #3 #channels #list is much better, than headlines or paragraphs... -->
     <ul>
-        <li>#Yummy
+        <li onclick="switchChannel('#Yummy')">#Yummy
             <!-- #3 #channels #favorite this is not starred -->
             <img src="http://ip.lfe.mw.tum.de/sections/star-o.png" alt="not starred">
         </li>
@@ -72,13 +74,15 @@
 
 <!-- #4 #one #page -->
 <div id="chat">
-    <h1>
-        #SevenContinents
-        <small>by
-            <strong>cheeses.yard.applies</strong>
-        </small>
-    </h1>
-
+    <section>
+        <h1 id="app-bar">
+            #SevenContinents
+            <small>by
+                <strong>cheeses.yard.applies</strong>
+            </small>
+        </h1>
+        <img id="app-bar-star" src="http://ip.lfe.mw.tum.de/sections/star.png" alt="Star" onclick="switchStarred()">
+    </section>
     <!-- #3 #chat #container -->
     <!-- #4 assign a #class to all your #messages to address them with css -->
     <!-- #4 apply a class "own" to your #messages to align them separately with #margins -->
