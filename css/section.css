@@ -1,0 +1,67 @@
+#channels{
+    position: absolute;
+    left: 0px;
+    width: 40%;
+    height: 100%;
+}
+#chat{
+    right: 0px;
+    position: absolute;
+    width: 60%;
+    height: 100%;
+}
+h1{
+    line-height: 24px;
+    padding: 16px 72px;
+    font-size: 20px;
+}
+h1 img{
+    position: absolute;
+    left: 16px;
+    top: 0px;
+}
+
+#list{
+    overflow: auto;
+    height: 80%;
+}
+
+li .arrow{
+    display:inline;
+    position: absolute;
+    right: 0px;
+    vertical-align: center;
+}
+#tab-bar,#chat-bar, #chat-bar button{
+    display: flex;
+    justify-content: space-between;
+}
+
+#chat button{
+    position: relative;
+    right: 8px;
+    bottom: 8px;
+    display: block;
+}
+
+.message h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#chat-bar button{
+    display: initial;
+    left: 0px;
+}
+
+#chat-bar{
+    background-color: white;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    font-size: 28px;
+    overflow: auto;
+    padding: 16px;
+    margin: 284px 0px 0px 16px;
+}
