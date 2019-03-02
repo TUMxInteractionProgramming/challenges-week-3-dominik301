@@ -151,3 +151,7 @@ li img {
     position: absolute;
     right: 16px;
 }
+
+#emoji{
+    display: none;
+}

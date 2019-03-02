@@ -18,3 +18,9 @@ function switchNotStarred(){
 function switchStarred(){
     $('#app-bar-star').attr("src","http://ip.lfe.mw.tum.de/sections/star.png");
 }
+
+function selectTab(tabId){
+    $('.selected').removeClass('selected');
+    $(tabId).addClass('selected');
+    console.log('Changing to tab '+tabId)
+}
